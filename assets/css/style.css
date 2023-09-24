@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 30px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+#contactForm {
+  padding: 25px 0;
+}
+#contactForm h5 {
+  text-align: center;
+}
+#contactForm input,
+#contactForm textarea {
+  color: grey;
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px;
+  outline: none;
+  transition: 0.3s all ease;
+}
+#contactForm input[type="submit"] {
+  border: none;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
