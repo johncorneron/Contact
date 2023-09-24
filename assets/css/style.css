@@ -43,3 +43,6 @@ h6 {
   text-transform: uppercase;
   cursor: pointer;
 }
+#contactForm input[type="submit"]:hover {
+  background: green;
+}
